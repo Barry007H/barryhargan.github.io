@@ -4,6 +4,17 @@
   <meta charset="utf-8">
   <title>Barry Hargan | Software Engineer</title>
   <base href="/">
+  <script>
+    (function () {
+      var path = window.location.pathname;
+      if (path === '/barryhargan.github.io' || path.indexOf('/barryhargan.github.io/') === 0) {
+        var base = document.querySelector('base');
+        if (base) {
+          base.setAttribute('href', '/barryhargan.github.io/');
+        }
+      }
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Portfolio of Barry Hargan — Software Engineer specialising in C#, .NET, Angular, SQL Server, and Microsoft Azure. Currently at Red Bull Racing in Milton Keynes.">
   <link rel="icon" type="image/x-icon" href="favicon.ico">

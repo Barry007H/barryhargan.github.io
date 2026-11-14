@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && node scripts/postbuild-gh-pages.mjs",
+    "build": "ng build --configuration production --base-href /barryhargan.github.io/ && node scripts/postbuild-gh-pages.mjs",
     "build:gh-pages": "ng build --configuration production --base-href /barryhargan.github.io/ && node scripts/postbuild-gh-pages.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
