@@ -21,14 +21,14 @@ import { RouterLink } from '@angular/router';
               I am an innovative Software Engineer with a proven track record of creating efficient and maintainable systems primarily using <strong class="font-semibold text-slate-900">C#</strong> and <strong class="font-semibold text-slate-900">.NET</strong>. With over 6 years in the software industry, I specialise in .NET and C# for backend systems and APIs, <strong class="font-semibold text-slate-900">Angular</strong> with TypeScript for frontend applications, and <strong class="font-semibold text-slate-900">SQL Server</strong> and <strong class="font-semibold text-slate-900">Cosmos DB</strong> for database systems.
             </p>
             <p class="text-base text-slate-600 leading-relaxed">
-              Throughout my career—spanning Formula 1 engineering operations at Red Bull Racing, healthcare platforms at ESO, high-concurrency game backends at Marmalade Game Studio, public-sector digital services at Civica, and commercial PC titles at RocketFlair Studios—I have focused on solving complex problems with clean, practical, and scalable solutions.
+              Throughout my career, spanning Formula 1 engineering operations at Red Bull Racing, healthcare platforms at ESO, high-concurrency backend systems at Marmalade Game Studio, public-sector digital services at Civica, and commercial PC titles at RocketFlair Studios. I have focused on solving complex problems with clean, practical, and scalable solutions.
             </p>
 
             <!-- Quick Metadata Pills -->
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-3">
               <div class="p-4 rounded-xl bg-sky-50/80 border border-sky-200/70">
                 <p class="text-xs font-semibold text-sky-700 uppercase">Location</p>
-                <p class="text-sm font-bold text-slate-900 mt-0.5">Milton Keynes, UK</p>
+                <p class="text-sm font-bold text-slate-900 mt-0.5">Northampton, UK</p>
               </div>
               <div class="p-4 rounded-xl bg-sky-50/80 border border-sky-200/70">
                 <p class="text-xs font-semibold text-sky-700 uppercase">Current Role</p>
@@ -52,10 +52,6 @@ import { RouterLink } from '@angular/router';
                 <div class="flex items-center justify-between text-xs">
                   <span class="font-semibold text-slate-500">Email</span>
                   <a href="mailto:barry7892013@gmail.com" class="font-semibold text-sky-700 hover:underline">barry7892013&#64;gmail.com</a>
-                </div>
-                <div class="flex items-center justify-between text-xs">
-                  <span class="font-semibold text-slate-500">Phone</span>
-                  <a href="tel:07821722429" class="font-semibold text-slate-800 hover:text-sky-700">07821 722429</a>
                 </div>
                 <div class="flex items-center justify-between text-xs">
                   <span class="font-semibold text-slate-500">LinkedIn</span>
@@ -374,7 +370,7 @@ import { RouterLink } from '@angular/router';
             <ul class="mt-4 space-y-2.5 text-sm text-slate-700">
               <li class="flex items-start gap-2.5">
                 <span class="text-sky-600 font-bold mt-0.5">•</span>
-                <span>Developed core gameplay systems and features in C# and Unity for the Paradox Interactive title <strong class="font-semibold text-slate-900">Surviving the Abyss</strong> (released on Steam) and contributed bug fixing and features to <strong class="font-semibold text-slate-900">Dynasty of the Sands</strong>.</span>
+                <span>Developed core gameplay systems and features in C# and Unity for the Paradox Interactive title <a href="https://www.youtube.com/watch?v=njF-9qjGw_4" target="_blank" rel="noopener noreferrer" class="font-semibold text-sky-700 hover:text-sky-800 underline underline-offset-2">Surviving the Abyss</a> (released on Steam) and contributed bug fixing and features to <strong class="font-semibold text-slate-900">Dynasty of the Sands</strong>.</span>
               </li>
               <li class="flex items-start gap-2.5">
                 <span class="text-sky-600 font-bold mt-0.5">•</span>
@@ -389,6 +385,21 @@ import { RouterLink } from '@angular/router';
                 <span>Managed source control workflows with <strong class="font-semibold text-slate-900">Git &amp; GitHub</strong> and maintained automated continuous integration build pipelines using <strong class="font-semibold text-slate-900">Jenkins</strong> with Unity projects.</span>
               </li>
             </ul>
+
+            <div class="mt-5">
+              <a
+                href="https://www.youtube.com/watch?v=njF-9qjGw_4"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-semibold shadow-sm shadow-sky-600/20 transition-all"
+              >
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                Watch Surviving the Abyss Trailer on YouTube
+                <span>↗</span>
+              </a>
+            </div>
 
             <div class="flex flex-wrap gap-2 mt-6 pt-4 border-t border-sky-100">
               <span class="px-2.5 py-1 rounded-md bg-sky-50 text-sky-800 border border-sky-200/70 text-xs font-semibold">C#</span>

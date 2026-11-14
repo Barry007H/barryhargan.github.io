@@ -16,7 +16,7 @@ import { FormsModule } from '@angular/forms';
           Get in <span class="text-sky-600">Touch</span>
         </h1>
         <p class="text-base md:text-lg text-slate-600 max-w-2xl mt-4 leading-relaxed">
-          Based in <strong class="font-semibold text-slate-800">Milton Keynes</strong>. Whether you would like to discuss a software engineering role, a project, or just connect, feel free to reach out directly via email, phone, or LinkedIn.
+          Based in <strong class="font-semibold text-slate-800">Northampton</strong>. Whether you would like to discuss a software engineering role, a project, or just connect, feel free to reach out directly via email, phone, or LinkedIn.
         </p>
       </section>
 
@@ -59,22 +59,6 @@ import { FormsModule } from '@angular/forms';
               </button>
             </div>
           </div>
-
-          <!-- Phone Card -->
-          <a
-            href="tel:07821722429"
-            class="group flex items-center gap-4 p-5 rounded-2xl bg-white border border-sky-200/80 shadow-sm hover:border-sky-400 hover:shadow-md transition-all"
-          >
-            <div class="h-11 w-11 rounded-xl bg-sky-100 border border-sky-200 flex items-center justify-center text-sky-700 group-hover:bg-sky-600 group-hover:text-white transition-colors shrink-0">
-              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-            </div>
-            <div>
-              <p class="text-xs font-bold uppercase tracking-wider text-sky-700">Phone</p>
-              <p class="text-sm font-bold text-slate-900 group-hover:text-sky-700 transition-colors mt-0.5">07821 722429</p>
-            </div>
-          </a>
 
           <!-- LinkedIn Card -->
           <a
@@ -126,7 +110,7 @@ import { FormsModule } from '@angular/forms';
             </div>
             <div>
               <p class="text-xs font-bold uppercase tracking-wider text-sky-700">Location</p>
-              <p class="text-sm font-bold text-slate-900 mt-0.5">Milton Keynes, United Kingdom</p>
+              <p class="text-sm font-bold text-slate-900 mt-0.5">Northampton, United Kingdom</p>
             </div>
           </div>
         </div>

@@ -286,7 +286,7 @@ import { RouterLink } from '@angular/router';
             Get in Touch
           </h3>
           <p class="text-sm text-slate-600 leading-relaxed mt-2">
-            Based in Milton Keynes. Reach out directly via email, phone, or LinkedIn to discuss engineering opportunities, architecture, or collaboration.
+            Based in Northampton. Reach out directly via email, phone, or LinkedIn to discuss engineering opportunities, architecture, or collaboration.
           </p>
         </a>
       </section>
